@@ -1,20 +1,24 @@
 {
-  "name": "sockets",
+  "name": "respiros-webapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "Web application for respirator monitoring",
+  "type": "module",
   "scripts": {
-    "start": "nodemon public/main.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Isaac Marcos Puñal",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
     "chart.js": "^2.9.4",
+    "datatables.net": "^1.10.23",
+    "datatables.net-bs4": "^1.10.23",
     "express": "^4.17.1",
-    "socket.io": "^3.1.0"
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "socket.io-client": "^3.1.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  "devDependencies": {}
 }
