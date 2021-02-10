@@ -1,4 +1,4 @@
-var socket = io.connect('ws://localhost:8000');
+var socket = io.connect('http://localhost:8000');
 
 socket.on("cycle", function (data) {
     wsParse(data);
@@ -21,4 +21,3 @@ function wsParseAlarm(data) {
     document.getElementById("type").innerHTML = data.type;
     document.getElementById("criticality").innerHTML = data.criticality;
 };
-
